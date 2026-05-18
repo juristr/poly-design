@@ -5,18 +5,18 @@ Shared React component library for the PolyShopping demo.
 ## Requirements
 
 - Node.js 20+
-- pnpm 10+
+- npm 10+
 
 ## Install
 
 ```sh
-pnpm install
+npm install
 ```
 
 ## Validate
 
 ```sh
-pnpm exec nx run-many --target=lint,test,build --all
+npm run validate
 ```
 
 ## Package
@@ -24,5 +24,5 @@ pnpm exec nx run-many --target=lint,test,build --all
 The package is published as `@polydemo/tusky-design`.
 
 ```sh
-pnpm exec nx build @polydemo/tusky-design
+npm run build
 ```
