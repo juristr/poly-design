@@ -88,7 +88,7 @@ function determineDistTag(version: string): string {
   // Check if this is an older major version
   try {
     const latestVersion = execSync(
-      'npm view @juristr/tusky-design version 2>/dev/null'
+      'npm view @polydemo/tusky-design version 2>/dev/null'
     )
       .toString()
       .trim();

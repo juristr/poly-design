@@ -1,11 +1,8 @@
-# Plan: Setup Nx Release for @juristr/tusky-design
+# Plan: Setup Nx Release for @polydemo/tusky-design
 
 ## Summary
 
-Setup Nx Release to publish `@juristr/tusky-design` to npmjs.org using conventional commits, similar to epicweb-slate-ui.
-
-**Registry:** npmjs.org (public, easy consumer access)
-**Git author:** Juri Strumpflohner <juri.strumpflohner@gmail.com>
+Setup Nx Release to publish `@polydemo/tusky-design` to npmjs.org using conventional commits, similar to epicweb-slate-ui.
 
 ## Files to Create/Modify
 

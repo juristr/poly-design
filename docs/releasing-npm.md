@@ -37,9 +37,9 @@ pnpm release 1.2.0-alpha.0
 Users install prereleases with:
 
 ```bash
-npm install @juristr/tusky-design@next
+npm install @polydemo/tusky-design@next
 # or specific version
-npm install @juristr/tusky-design@1.2.0-beta.1
+npm install @polydemo/tusky-design@1.2.0-beta.1
 ```
 
 When ready for stable release:
