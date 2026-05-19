@@ -21,7 +21,7 @@ npm run validate
 
 ## Package
 
-The package is published as `@polydemo/tusky-design`.
+The package is published as `@juristr/tusky-design`.
 
 ```sh
 npm run build

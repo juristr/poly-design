@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx build @polydemo/tusky-design",
-    "lint": "nx lint @polydemo/tusky-design",
-    "test": "nx test @polydemo/tusky-design",
+    "build": "nx build @juristr/tusky-design",
+    "lint": "nx lint @juristr/tusky-design",
+    "test": "nx test @juristr/tusky-design",
     "validate": "nx run-many --target=lint,test,build --all"
   },
   "private": true,
