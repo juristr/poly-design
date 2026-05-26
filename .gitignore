@@ -50,3 +50,6 @@ test-output
 
 
 storybook-static
+.claude/worktrees
+.nx/polygraph
+.nx/self-healing
