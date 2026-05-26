@@ -1,7 +1,31 @@
 # @juristr/tusky-design
 
-This library was generated with [Nx](https://nx.dev).
+React component library used by the PolyShopping demo. Published to npm and packed locally for Polygraph cross-repo flows.
 
-## Running unit tests
+## Components
 
-Run `nx test @juristr/tusky-design` to execute the unit tests via [Vitest](https://vitest.dev/).
+- `Button`
+- `Badge`
+- `IconButton`
+- `Price`
+- `Rating`
+
+## Install
+
+```sh
+npm install @juristr/tusky-design
+```
+
+`react`, `react-dom`, and `lucide-react` are required peer dependencies.
+
+## Develop
+
+From the repo root:
+
+```sh
+npm install
+npm run typecheck
+npm run build
+```
+
+The library is built with Vite in library mode → `dist/index.js` + `dist/index.d.ts`.
