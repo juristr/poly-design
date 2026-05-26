@@ -18,6 +18,7 @@
     "ui"
   ],
   "type": "module",
+  "files": ["dist"],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -35,5 +36,10 @@
   },
   "dependencies": {
     "clsx": "^2.1.1"
+  },
+  "peerDependencies": {
+    "lucide-react": "^0.555.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
