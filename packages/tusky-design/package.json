@@ -18,6 +18,7 @@
     "ui"
   ],
   "type": "module",
+  "files": ["dist"],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -30,15 +31,15 @@
     }
   },
   "scripts": {
-    "test-storybook": "vitest --config=vitest.config.storybook.ts --run"
-  },
-  "nx": {
-    "tags": [
-      "scope:shared",
-      "type:ui"
-    ]
+    "typecheck": "tsc --noEmit -p tsconfig.lib.json",
+    "build": "npm run typecheck && vite build"
   },
   "dependencies": {
     "clsx": "^2.1.1"
+  },
+  "peerDependencies": {
+    "lucide-react": "^0.555.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

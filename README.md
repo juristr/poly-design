@@ -1,28 +1,27 @@
 # PolyDemo Design
 
-Shared React component library for the PolyShopping demo.
+Shared React component library for the **PolyShopping** demo. Published as `@juristr/tusky-design`.
+
+This repo is one of the demo repos used to showcase [Polygraph](https://polygraph.dev) — coordinating changes across multiple repos.
 
 ## Requirements
 
 - Node.js 20+
 - npm 10+
 
-## Install
+## Layout
 
-```sh
-npm install
+npm workspaces, single library:
+
+```
+packages/tusky-design/         the @juristr/tusky-design source
 ```
 
-## Validate
+## Scripts
 
-```sh
-npm run validate
-```
+| Script              | What it does                                 |
+| ------------------- | -------------------------------------------- |
+| `npm run typecheck` | `tsc --noEmit` on the workspace lib          |
+| `npm run build`     | typecheck + Vite library build → `dist/`     |
 
-## Package
-
-The package is published as `@juristr/tusky-design`.
-
-```sh
-npm run build
-```
+See [`packages/tusky-design/README.md`](./packages/tusky-design/README.md) for the library itself.

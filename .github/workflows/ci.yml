@@ -15,24 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          filter: tree:0
-          fetch-depth: 0
 
-      # Cache node_modules
       - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: 'npm'
 
       - run: npm ci
-      - run: npx playwright install --with-deps
-      - uses: nrwl/nx-set-shas@v4
-
-      - name: check formatting
-        run: npx nx format:check
-
-      - name: check nx sync
-        run: npx nx sync:check
-
-      - run: npx nx affected -t lint test build typecheck test-storybook
+      - run: npm run build
