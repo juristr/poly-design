@@ -29,9 +29,6 @@
       "default": "./dist/index.js"
     }
   },
-  "scripts": {
-    "test-storybook": "vitest --config=vitest.config.storybook.ts --run"
-  },
   "nx": {
     "tags": [
       "scope:shared",
