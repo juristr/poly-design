@@ -13,16 +13,12 @@ Shared React component library for the PolyShopping demo.
 npm install
 ```
 
-## Validate
-
-```sh
-npm run validate
-```
-
-## Package
+## Build
 
 The package is published as `@juristr/tusky-design`.
 
 ```sh
 npm run build
 ```
+
+This runs typechecking, then builds the library with Vite.

@@ -29,11 +29,9 @@
       "default": "./dist/index.js"
     }
   },
-  "nx": {
-    "tags": [
-      "scope:shared",
-      "type:ui"
-    ]
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.lib.json",
+    "build": "npm run typecheck && vite build"
   },
   "dependencies": {
     "clsx": "^2.1.1"
